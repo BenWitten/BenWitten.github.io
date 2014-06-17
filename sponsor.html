@@ -18,7 +18,7 @@
 
 <body>
 
-    <div class="brand"><img src="img/logo.jpg"> &nbsp; BdubD Enterprises</div>
+    <div class="brand"><img src="img/logo.jpg"></div>
     <div class="address-bar"></div>
 
     <nav class="navbar navbar-default" role="navigation">
@@ -36,13 +36,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li><a href="index.html">Home</a>
                     </li>
                     <li><a href="about.html">About Us</a>
                     </li>
-                    <li><a href="events.html">Updates and Events</a>
+                    <li ><a href="events.html" >Updates and Events</a>
                     </li>
-                    <li><a href="sponsor.html">Sponsorship<br>Opportunities</a>
+                    <li class="active"><a href="sponsor.html">Sponsorship<br>Opportunities</a>
                     </li>
                     <li><a href="join.html">Join Our Team</a>
                     </li>                  
@@ -54,16 +54,45 @@
     </nav>
 
     <div class="container">
-         <div class="row">
-                <div class="box">
-                    <div class="col-lg-12 text-center">
-                            <div><iframe src="http://www.youtube.com/embed/U70zLIBhVwI" frameborder="0" showinfo="0" width="100%" height="600" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid957085"></iframe></div>
-                    </div>
+
+        <div class="row">
+            <div class="box" id="sponsors">
+                <div class="col-lg-9" >
+                    
+                    <hr class="visible-xs">
+                    <p>All sponsorship packages are customized to fit your brand, company initiatives, and budget.<br><br> 
+                        
+                        Options include:
+                        <ul>
+                        <li>Events Presented by Sponsor</li>
+                        <li>Signage at Events</li>
+                        <li>Highlight Sponsor on Facebook and Event Pages</li>
+                        <li>On-side Branding with Sponsor’s marketing materials</li>
+                        <li>Feature the product in our hundreds of party pictures from events and watermark each photo with the Sponsor’s logo</li>
+                        <li>Offer products as the “Featured Special” at events</li>
+                        <li>Aid in marketing and promotion of initiatives of Sponsor</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="col-lg-3">
+                    
+                    <img class="img-responsive" src="img/img1.jpg" alt="">               
+                
+                    <img class="img-responsive" src="img/img2.jpg" alt="">
+               
+                    <img class="img-responsive" src="img/img3.jpg" alt="">
+                   
+                <div class="clearfix"></div>
                 </div>
             </div>
-
         </div>
+
+    </div>
     <!-- /.container -->
+
+
+
 
     <footer>
         <div class="container">
@@ -84,6 +113,7 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css"></script>
     <script>
     // Activates the Carousel
     $('.carousel').carousel({
