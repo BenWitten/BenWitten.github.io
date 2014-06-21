@@ -225,3 +225,7 @@ footer p {
 #sponsors img {
   margin:15px;
 }
+#sponsors li {
+  padding:5px;
+  font-size: 17px;
+}
